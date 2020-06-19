@@ -1,0 +1,43 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background:linear-gradient( hsl(0,0%,25%) 0%, hsl(0,0%,15%) 100%);
+  height:auto;
+  color:white;
+}
+#title{
+  top: -3.3%;
+  
+  width: 100%;
+  position: fixed;
+  background: hsl(0,0%,15%);
+  
+}
+.selfie{
+  max-width:8%;
+  border-radius: 10%;
+}
+.image{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  height:auto;
+  border-radius: 3%;
+  max-width: 100%;
+}
+.image:hover{
+  
+  transform: scale(1.1);
+}
+
+#img-div{
+  text-align: center;
+  padding: 65px 5px 5px 5px;
+}
+
+#img-caption{
+  font-size:18px;
+}
+
+#tribute-link{
+  color:hsl(0,0%,90%);
+}
